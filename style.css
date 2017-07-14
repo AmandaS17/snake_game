@@ -1,0 +1,48 @@
+body{
+  background-color: #C1F9FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-wrap: wrap;
+}
+
+.title{
+  height: 50px;
+  font-size: 100px;
+  font-style: Helvetica;
+  color: royalblue;
+  flex-grow: 1;
+  flex-shrink: 2;
+  margin-top: 20px;
+}
+
+#scores{
+  font-size: 40px;
+  font-style: Helvetica;
+  color: royalblue;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 2;
+  margin-bottom: 10px;
+}
+
+#highscore{
+  font-size: 30px;
+  font-style: Helvetica;
+  color: royalblue;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 2;
+  margin-bottom: 10px;
+}
+
+#defaultCanvas0{
+  border: 10px solid black;
+  display: flex;
+  flex-grow: 2;
+  flex-shrink: 1;
+  margin-bottom: 40px;
+}
